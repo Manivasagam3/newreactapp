@@ -1,0 +1,30 @@
+*{
+    margin:0%;
+    padding: 0%;
+}
+.nav-item {
+   list-style: none;
+   text-decoration: none;
+    background-color: aquamarine;
+ margin-bottom: 16px;
+  
+   padding: 20px;
+   
+}
+.nav-item h3{
+position: relative;
+right: 80%;
+font-size:200%;
+}
+.nav{
+   list-style: none;
+   display: flex;
+   justify-content:right;
+   justify-content: center;
+   gap: 50px;
+   padding-top: 7px;
+   
+}
+.nav li a{
+    text-decoration: none;
+}

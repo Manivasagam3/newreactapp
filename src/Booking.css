@@ -1,0 +1,44 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+.forms{
+    margin-top: 7%;
+    position: relative;
+    left:25%;
+   
+    width:47%;
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+flex-direction: row;
+gap:70px;
+
+}
+.items{
+    display: flex;
+flex-direction: row;
+gap:20px;
+display: flex;
+justify-content: center;
+}
+.items button{
+    position: relative;
+    left:2%;
+    width: 10%;
+    background-color: rgb(247, 245, 242);
+    padding: 3px;
+    border-radius: 3px;
+}
+.items input{
+    width:30%;
+}
+.forms:hover{
+    background:rgb(250, 251, 251);
+
+}

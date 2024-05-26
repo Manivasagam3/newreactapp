@@ -1,13 +1,30 @@
-
-import './App.css';
-
+import React from "react";
+import{BrowserRouter,Routes,Route,} from "react-router-dom";
+import Children from './Login'
+import Navbar from "./Navbar";
+import "./App.css"
 function App() {
   return (
-  <>
-  <h1>hello world</h1>
-  <p>hi this is  manivasgam</p>
- </>
+    <>
+<div className="app">
+
+<BrowserRouter>
+
+<Navbar/>
+  <Routes>
+   
+    <Route path="/login" element={<Children/>}/>
+
+
+  </Routes>
+  </BrowserRouter>
+ 
+</div>
+
+</>
   );
 }
 
 export default App;
+
+

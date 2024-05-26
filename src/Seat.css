@@ -1,0 +1,54 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.new{
+   display: flex;
+   justify-content: center;
+   display: grid;
+   grid-template-columns: auto auto auto;
+   margin-top: 5%;
+   background-color: rgb(148, 149, 150);
+   border-radius: 30px;
+  width:30%;
+  position: relative;
+  left:33%;
+  padding: 15px;
+}
+.new:hover{
+    background-color: rgba(245, 238, 238, 0.5);
+}
+.confirm{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.confirm h1{
+    margin-bottom: 5%;
+    
+  
+}
+.button{
+    margin-top:5%;
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    color: aquamarine;
+   
+}
+.button input{
+    padding: 10px;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width:20%;
+    position:relative;
+    left:40%;
+    border: 3px solid aquamarine;
+    padding: 20px;
+    margin-bottom: 20px;
+}
