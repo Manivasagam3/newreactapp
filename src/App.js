@@ -4,7 +4,6 @@ import './App.css';
 function App() {
   return (
   <>
-<<<<<<< HEAD
   <h1>hello world</h1>
 =======
   <h1>helloo</h1>
