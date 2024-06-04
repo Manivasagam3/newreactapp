@@ -1,0 +1,11 @@
+.hero{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top:15%;
+}
+.hero p{
+    position: relative;
+    left:42%;
+    margin-top: 2%;
+}

@@ -6,7 +6,7 @@ const Navbar = () => {
     <div className='nav-item' style={{background:"aquamarine"}}>
       <h3 >busses</h3>
         <ul className='nav'>
-    <li><Link to='/'>Home</Link></li>
+    <li><Link to='/hero'>Home</Link></li>
     <li><Link to='/login'>login</Link></li>
   </ul>
     </div>
